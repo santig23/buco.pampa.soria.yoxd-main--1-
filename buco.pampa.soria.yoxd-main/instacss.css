@@ -1,0 +1,89 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta esta altura según tus necesidades */
+  text-decoration: none;
+  font-size: 28px;
+  margin-bottom: -175px;
+  margin-left: -37px;
+}
+
+.buttons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: -175px;
+  margin-left: -37px;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+.fusion-header-wrapper {
+  background-color: #fff; /* Establece un fondo blanco */
+}
+
+.fusion-header-wrapper {
+  background-color: transparent !important; /* Establece el fondo como transparente */
+}
+
+.menu-item-has-children {
+  position: relative;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.menu-item-has-children > a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  color: #000; /* Asegurar que el texto sea legible */
+}
+
+.menu-item-has-children:hover > #productos-dropdown {
+  display: block;
+}
+
+#productos-dropdown {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ff0000; /* Cambio de color al pasar el mouse */
+}

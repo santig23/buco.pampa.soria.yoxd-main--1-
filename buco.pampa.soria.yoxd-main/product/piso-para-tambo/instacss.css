@@ -1,0 +1,28 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta esta altura según tus necesidades */
+  text-decoration: none;
+  font-size: 28px;
+  margin-bottom: -175px;
+  margin-left: -37px;
+}
+
+.buttons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: -175px;
+  margin-left: -37px;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
